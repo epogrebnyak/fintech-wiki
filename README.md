@@ -1,4 +1,4 @@
-# global-fintech-wiki
+# fintech-wiki
 
 We are building an LLM-powered wiki covering **fintech** (payments, neobanks, wealthtech) and **digital infrastructure** (blockchain and tokenization).
 
