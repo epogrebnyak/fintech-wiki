@@ -49,7 +49,7 @@ many implementations are possible.
 Specific stack is yet to be defined. We need some agent to process raw data and create the markdown files and some static site generator to publish the files.  
 
 Wiki management (raw docs to markdown):
-- `AGENTS.md` with instructions - are there any existing implementations like [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)?
+- `AGENTS.md` with instructions — GitHub Copilot can run repository instructions from this file; are there any existing implementations like [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)?
 - [llm_wiki](https://github.com/nashsu/llm_wiki) - uses Obsidian and has a desktop application
 
 Publishing:
