@@ -54,7 +54,7 @@ Wiki management (raw docs to markdown):
   and will apply its contents when running tasks in this repository.
   To use it: open GitHub Copilot in agent mode and invoke any task — Copilot will
   automatically pick up the instructions in `AGENTS.md`.
-  Are there any existing implementations like [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)?
+  See `AGENTS.md` at the repository root for implementation instructions; related work includes [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent).
 - [llm_wiki](https://github.com/nashsu/llm_wiki) - uses Obsidian and has a desktop application
 
 Publishing:
