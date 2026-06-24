@@ -49,7 +49,12 @@ many implementations are possible.
 Specific stack is yet to be defined. We need some agent to process raw data and create the markdown files and some static site generator to publish the files.  
 
 Wiki management (raw docs to markdown):
-- `AGENTS.md` with instructions - are there any existing implementations like [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)?
+- `AGENTS.md` — a file at the repo root that provides instructions for AI agents.
+  GitHub Copilot [now supports `AGENTS.md`](https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements/)
+  and will apply its contents when running tasks in this repository.
+  To use it: open GitHub Copilot in agent mode and invoke any task — Copilot will
+  automatically pick up the instructions in `AGENTS.md`.
+  See `AGENTS.md` at the repository root for implementation instructions; related work includes [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent).
 - [llm_wiki](https://github.com/nashsu/llm_wiki) - uses Obsidian and has a desktop application
 
 Publishing:
